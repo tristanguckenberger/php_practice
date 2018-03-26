@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/customSandboxSite/css" />
+            <path value="file://$PROJECT_DIR$/customSandboxSite/inc" />
+            <path value="file://$PROJECT_DIR$/customSandboxSite" />
+            <path value="file://$PROJECT_DIR$/customSandboxSite/config" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>

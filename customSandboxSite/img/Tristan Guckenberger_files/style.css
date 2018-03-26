@@ -1,0 +1,211 @@
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+}
+.container {
+    font-family: "Arial", sans-serif, "Andale Mono";
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+    margin: 0;
+    position: fixed;
+    z-index: 10000;
+
+
+}
+.main-menu {
+    display: inline-block;
+    width: 20%;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin-left: 65%;
+    color: #525252;
+    z-index: 10001;
+    padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: #525252;
+}
+.menu-item {
+    display: inline-block;
+    margin-right: 15%;
+
+    text-decoration: none;
+
+}
+.menu-item > a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline: #000000;
+
+}
+.logout {
+    display: inline-block;
+    width: 30%;
+    background-color: red;
+    float:left;
+    font-size: 20px;
+}
+input[type=text] {
+    height: 35px;
+    font-size: 35px;
+
+}
+input[type=password] {
+    height: 35px;
+    font-size: 35px;
+
+}
+.button {
+    height: 20%;
+    font-size: 35px;
+}
+.form-container {
+    /* The image used */
+    background-image: url("../img/LightBulb.jpg");
+
+    /* Set a specific height */
+    height: 150%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    padding-top: 2%;
+
+
+
+}
+.container-form {
+    margin-top: 35%;
+    text-align: left;
+}
+
+.page-extended {
+
+}
+.menu-item.drop{
+    position: absolute;
+    display: inline-block;
+    transition: opacity .35s ease;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 4px;
+    text-align: center;
+}
+.menu-item.second{
+    display: none;
+    opacity: 0;
+    transition: opacity .35s ease;
+    position: relative;
+    margin-top: 30%;
+    font-size: 20px;
+    width: 100%;
+}
+.menu-item.second > a{
+    padding-bottom: 10px;
+}
+.menu-item.drop:hover {
+    background-color: #ffffff;
+    opacity: 1;
+}
+.menu-item.drop:hover .menu-item.second{
+    display: block;
+    position: relative;
+    background-color: #ffffff;
+    opacity: 1;
+
+
+
+}
+.menu-item.second a{
+    display: block;
+    position: relative;
+}
+.site-content {
+    background-color: #f7f7f7;
+    height: 1500px;
+}
+.site-content2 {
+    background-image: url("../img/hivemind.png");
+
+    /* Set a specific height */
+    height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-content3 {
+    background-image: url("../img/youllneed.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7f7f7;
+    opacity: 0.7;
+    height: 1000px;
+    margin: -50px -50px -50px -50px;
+
+    z-index: 0;
+    position: relative;
+
+}
+.blurred-div {
+    background-image: url("../img/youllneed.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -50px -50px -50px -50px;
+    filter: blur(20px);
+    height: 500px;
+
+}
+.tagline {
+    color: #ffffff;
+    font-family: "Arial", sans-serif, "Andale Mono";
+    font-size: 78px;
+    font-weight: bold;
+    opacity: 1;
+    position: absolute;
+    padding-left: 15%;
+}
+.tagline2 {
+    color: #858585;
+    font-family: "Arial", sans-serif, "Andale Mono";
+    font-size: 78px;
+    font-weight: bold;
+    opacity: 1;
+    height: 500px;
+    padding-left: 15%;
+    background-color: #f7f7f7;
+}
+.container-content {
+    overflow:hidden;
+}
+
+
+
+/*
+TEXT EDITOR
+ */
+
+
+.doc .doc__text-editor {
+    width: 60%;
+    padding: 40px 28px;
+    min-height: 600px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    margin: 0 auto;
+    transform: translateY(150px);
+    color: #424242;
+    font-size: 25px;
+}
+
